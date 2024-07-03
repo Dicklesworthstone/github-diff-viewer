@@ -75,17 +75,7 @@ cd github-diff-viewer
 npm install
 ```
 
-### 4. Set up environment variables
-
-Create a `.env.local` file in the project root and add the following:
-
-```
-GITHUB_ACCESS_TOKEN=your_github_personal_access_token
-```
-
-Replace `your_github_personal_access_token` with a valid GitHub Personal Access Token.
-
-### 5. Run the development server
+### 4. Run the development server
 
 ```bash
 npm run dev
@@ -99,7 +89,7 @@ The application should now be running on `http://localhost:3000`.
 github-diff-viewer/
 ├── components/
 │   ├── DynamicDiffViewer.js
-│   ├── DiffViewer.js (not shown in the provided code)
+│   ├── DiffViewer.js
 │   └── ui/
 │       └── button.js
 ├── pages/
@@ -108,17 +98,16 @@ github-diff-viewer/
 │   └── api/
 │       └── proxy.js
 ├── styles/
-│   └── globals.css (not shown in the provided code)
+│   └── globals.css
 ├── public/
 ├── package.json
-└── next.config.js (not shown in the provided code)
+└── next.config.js
 ```
 
 ## Usage
 
 1. Navigate to `http://localhost:3000` in your web browser.
 2. The GitHub Diff Viewer interface will be displayed.
-3. (Add more specific usage instructions based on the actual functionality of your DiffViewer component)
 
 ## Contributing
 
