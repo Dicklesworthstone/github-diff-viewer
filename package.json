@@ -1,0 +1,33 @@
+{
+    "name": "github-diff-viewer",
+    "version": "1.0.0",
+    "description": "GitHub Diff Viewer using isomorphic-git and jsdiff",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@isomorphic-git/lightning-fs": "^4.6.0",
+        "@radix-ui/react-label": "^2.1.0",
+        "@radix-ui/react-slider": "^1.2.0",
+        "diff": "^5.2.0",
+        "http-proxy-middleware": "^3.0.0",
+        "isomorphic-git": "^1.26.4",
+        "next": "^14.2.4",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.19",
+        "eslint": "^8.57.0",
+        "eslint-config-next": "^14.2.4",
+        "postcss": "^8.4.39",
+        "tailwindcss": "^3.4.4"
+    }
+}
