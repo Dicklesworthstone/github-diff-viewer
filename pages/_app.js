@@ -1,6 +1,8 @@
 import '../styles/globals.css'
 import Script from 'next/script'
 import { useState, useEffect } from 'react'
+import 'prismjs/themes/prism-tomorrow.css';
+import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
 
 function MyApp({ Component, pageProps }) {
   const [scriptsLoaded, setScriptsLoaded] = useState(false);
@@ -25,6 +27,7 @@ function MyApp({ Component, pageProps }) {
       />
       {scriptsLoaded ? <Component {...pageProps} /> : <div>Loading scripts...</div>}
     </>
+    
   )
 }
 
